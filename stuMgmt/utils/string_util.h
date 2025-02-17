@@ -42,8 +42,10 @@ public:
 	static std::string mid_l_r(std::string &str, std::string str_left, std::string str_right, bool b_inc_start = false, bool b_inc_end = false);
 	static std::string span_including(std::string& str, std::string str_key);
 	static std::string span_excluding(std::string& str, std::string str_key);
+
 	static bool start_with(std::string &str, std::string str_begin);
 	static bool end_with(std::string &str, std::string str_end);
 	static bool contain(std::string &str, std::string str_sub);
+	static bool is_empty(std::string &str);
 };
 
