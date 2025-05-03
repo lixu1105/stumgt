@@ -163,6 +163,11 @@ bool string_util::contain(std::string &str, std::string str_sub)
 	return true;
 }
 
+bool string_util::is_empty(std::string &str)
+{
+	return str.size() > 0 ? true : false;
+}
+
 std::string string_util::format(const std::string fmt, ...)
 {
 	std::string str_ret;
